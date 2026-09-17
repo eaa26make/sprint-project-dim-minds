@@ -70,15 +70,16 @@ img {
     background-color: #7CC6AB;
 }
 
-p {
+.tiramisu {
     font-family: lato;
     color: #1074C0;
-    font-weight : bolder;
-    font-size: x-large;
+    font-weight : 850;
+    font-size: xx-large;
     margin-left: 10px;
+    letter-spacing: 1px;
 }
 
-h3 {
+.subt {
     color:#1074C0;
     font-family:Cookie;
     font-weight: lighter;
@@ -86,8 +87,25 @@ h3 {
     margin-bottom: 30px;
 }
 
-h2 {
+.month1 {
     color: white;
     font-family: lato;
-    font-size: xx-large;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.month2{
+    color:white;
+    font-family: lato;
+    font-size: 12px;
+}
+
+#small-container{
+    display:flex;
+    flex-direction: column;
+    background-color: #60B1B1;
+    width: fit-content;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 20px;
 }
