@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+body{
+    background-image: url("/assets/bkg_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(2px);
+}
+
 
 header {
     background-color:#DFF4F1;
