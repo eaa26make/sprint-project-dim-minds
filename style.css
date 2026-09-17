@@ -34,3 +34,14 @@ img {
     width: 100px;
     
 }
+
+@media screen and (min-width:600px) {
+    .wrapper {
+        width: max-content - 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
