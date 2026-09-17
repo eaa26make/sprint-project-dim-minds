@@ -56,3 +56,38 @@ img {
         font-size: 40px;
     }
 }
+
+#big-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    width: 340px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #7CC6AB;
+}
+
+p {
+    font-family: lato;
+    color: #1074C0;
+    font-weight : bolder;
+    font-size: x-large;
+    margin-left: 10px;
+}
+
+h3 {
+    color:#1074C0;
+    font-family:Cookie;
+    font-weight: lighter;
+    font-size:25px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    font-family: lato;
+    font-size: xx-large;
+}
