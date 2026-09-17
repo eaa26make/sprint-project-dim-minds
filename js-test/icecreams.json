@@ -1,0 +1,79 @@
+[
+    {
+        "flavor": "Nut dream",
+        "allergens": ["Soy Lecitin", "Hazelnut", "Almonds", "Gluten", "Eggs"],
+        "traces": "Cashew Nut",
+        "status": "Available",
+        "img": "ic_nutdream.png"
+    },
+    {
+        "flavor": "Nutella/Oreo",
+        "allergens": ["Hazelnut", "Gluten"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_nutellaoreo.png"
+    },
+    {
+        "flavor": "Bailey's",
+        "allergens": ["Alcohol", "Hazelnut"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_baileys.png"
+    },
+    {
+        "flavor": "Banana",
+        "allergens": [],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_banana.png"
+    },
+    {
+        "flavor": "Chocolate",
+        "allergens": [],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_chocolate.png"
+    },
+    {
+        "flavor": "Tiramisu",
+        "allergens": ["Eggs"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_tiramisu.png"
+    },
+    {
+        "flavor": "Coconut",
+        "allergens": ["Alcohol", "Coconut", "Soy Lecitin"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_coconut.png"
+    },
+    {
+        "flavor": "Popcorn",
+        "allergens": [],
+        "traces": "Cashew Nut",
+        "status": "Available",
+        "img": "ic_popcorn.png"
+    },
+    {
+        "flavor": "Angel Hair",
+        "allergens": ["Soy", "Pistachio", "Gluten"],
+        "traces": "Lupine & Cashew Nut",
+        "status": "Available",
+        "img": "ic_angelhair.png"
+    },
+    {
+        "flavor": "Vanilla Deluxe",
+        "allergens": [],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_vanilladeluxe.png"
+    },
+    {
+        "flavor": "Irish Coffee",
+        "allergens": ["Alcohol"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_irishcoffee.png"
+    }
+]
