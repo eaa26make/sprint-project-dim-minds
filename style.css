@@ -70,16 +70,17 @@ img {
     background-color: #7CC6AB;
 }
 
-.tiramisu {
+#dayflavor {
     font-family: lato;
     color: #1074C0;
     font-weight : 850;
     font-size: xx-large;
     margin-left: 10px;
     letter-spacing: 1px;
+
 }
 
-.subt {
+#subt {
     color:#1074C0;
     font-family:Cookie;
     font-weight: lighter;
@@ -87,14 +88,14 @@ img {
     margin-bottom: 30px;
 }
 
-.month1 {
+#month1 {
     color: white;
     font-family: lato;
     font-size: 40px;
     font-weight: 900;
 }
 
-.month2{
+#month2{
     color:white;
     font-family: lato;
     font-size: 12px;
