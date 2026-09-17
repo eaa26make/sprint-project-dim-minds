@@ -64,40 +64,48 @@ img {
     width: 340px;
     height: 150px;
     padding: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.52);
     margin: 0 auto;
     margin-top: 40px;
+    margin-bottom: 35px;
     background-color: #7CC6AB;
 }
 
-.tiramisu {
+#dayflavor {
     font-family: lato;
     color: #1074C0;
     font-weight : 850;
     font-size: xx-large;
-    margin-left: 10px;
+    margin-left: 12px;
     letter-spacing: 1px;
+    position: relative;
+    top: 28px;
 }
 
-.subt {
+#subt {
     color:#1074C0;
     font-family:Cookie;
     font-weight: lighter;
-    font-size:25px;
-    margin-bottom: 30px;
+    font-size: 36px;
+    position: relative;
+    top: 22px;
+    right: 13px;
 }
 
-.month1 {
+#month1 {
     color: white;
     font-family: lato;
     font-size: 40px;
     font-weight: 900;
 }
 
-.month2{
+#month2{
     color:white;
     font-family: lato;
     font-size: 12px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 7px;
 }
 
 #small-container{
@@ -107,5 +115,30 @@ img {
     width: fit-content;
     text-align: center;
     padding: 10px 5px;
-    border-radius: 20px;
+    border-radius: 17px;
+}
+
+#card.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    width: 340px;
+    height: 150px;
+    padding: 20px;
+    box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.52);
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #7CC6AB;
+}
+
+#card {
+    height: 150px;
+    width: auto;
+    background-color: #7CC6AB;
+}
+
+p {
+    font-family: lato;
+    color: #1074C0;
+    font-weight : 710;
 }
