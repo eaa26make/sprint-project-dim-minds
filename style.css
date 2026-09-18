@@ -150,27 +150,54 @@ img {
     border-radius: 17px;
 }
 
-#card.container {
+#card-container {
     display: flex;
     flex-direction: column;
     border-radius: 24px;
-    width: 340px;
+    width: fit-content;
     height: 150px;
-    padding: 20px;
+    padding: 20x;
     box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.52);
     margin: 0 auto;
-    margin-top: 40px;
     background-color: #7CC6AB;
 }
 
 #card {
-    height: 150px;
-    width: auto;
+    height: 100%;
+    width: 160px;
+    border-radius: 24px;
     background-color: #7CC6AB;
+    z-index: 1;
+    overflow: hidden;
 }
 
 p {
     font-family: lato;
     color: #1074C0;
     font-weight: 710;
+    font-size: large;
+}
+
+#card-img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right: 49px;
+    bottom: 80px;
+    z-index: 0;
+    overflow: visible;
+}
+
+#card-text {
+    position: relative;
+    bottom: 180px;
+    background-color: #7CC6AB;
+    transform: rotate(-5deg);
+    text-align: center;
+    font-size: 15px;
+    padding: 12px;
+    box-shadow: -3px -13px 18px -9px rgba(0, 0, 0, 0.53);
+    width: 165px;
+    padding-bottom: 35px;
+    right: 15px;
 }
