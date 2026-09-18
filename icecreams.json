@@ -1,5 +1,12 @@
 [
     {
+        "flavor": "Tiramisu",
+        "allergens": ["Eggs"],
+        "traces": "Standard",
+        "status": "Available",
+        "img": "ic_tiramisu.png"
+    },
+    {
         "flavor": "Nut dream",
         "allergens": ["Soy Lecitin", "Hazelnut", "Almonds", "Gluten", "Eggs"],
         "traces": "Cashew Nut",
@@ -33,13 +40,6 @@
         "traces": "Standard",
         "status": "Available",
         "img": "ic_chocolate.png"
-    },
-    {
-        "flavor": "Tiramisu",
-        "allergens": ["Eggs"],
-        "traces": "Standard",
-        "status": "Available",
-        "img": "ic_tiramisu.png"
     },
     {
         "flavor": "Coconut",

@@ -36,16 +36,16 @@
         <div id="big-container">
             <div class="image-wrapper">
                 <div class="overflow-wrapper">
-                    <img src="/assets/img/ic_tiramisu.png">
+                    <img id="dayflavor-img" src="" alt="Flavor of the day">
                 </div>
             </div>
             
             <div id="column-wrapper">
                 <div id="small-container">
-                    <p id="month1">16.</p>
-                    <p id="month2">september</p>
+                    <p id="month1"></p>
+                    <p id="month2"></p>
                 </div>
-                <p id="dayflavor">TIRAMISU</p>
+                <p id="dayflavor"></p>
                 <p id="subt">Flavor of the day</p>
             </div>
         </div>
@@ -56,6 +56,43 @@
             </div>
         </div>
     </section>
-</body>
 
+    <div id="modal-overlay" class="modal-overlay hidden">
+    <div class="modal-card">
+        <div class="modal-slant-wrapper">
+            <div class="modal-slant"></div>
+        </div>
+
+        <button id="close-btn">
+            <svg viewBox="0 0 24 24">
+                <path d="M4 14 L12 14 L12 22 M14 4 L14 12 L22 12" />
+            </svg>
+        </button>
+
+        <img id="modal-img" src="" alt="Ice cream image">
+        
+        <div class="modal-content">
+            <h2 id="modal-title"></h2>
+            
+            <div class="info-grid">
+                <div class="info-box">
+                    <h3>Allergens</h3>
+                    <ul id="modal-allergens">
+
+                    </ul>
+                </div>
+                
+                <div class="info-box">
+                    <h3>Traces</h3>
+                    <ul id="modal-traces">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="cards.js"></script>
+</body>
 </html>
