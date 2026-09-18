@@ -7,10 +7,16 @@ body {
     background-image: url("/assets/bkg_image.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
-    backdrop-filter: blur(2px);
+}
+
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 
@@ -81,6 +87,7 @@ img {
     margin-top: 40px;
     margin-bottom: 35px;
     background-color: #7CC6AB;
+    cursor: pointer;
 }
 
 .column-wrapper {
@@ -118,11 +125,12 @@ img {
     font-family: lato;
     color: #1074C0;
     font-weight: 850;
-    font-size: xx-large;
-    margin-left: 12px;
+    font-size: 24px;
     letter-spacing: 1px;
     position: relative;
-    top: 28px;
+    left: 16px;
+    top: 24px;
+    text-transform: uppercase;
 }
 
 #subt {
@@ -132,8 +140,9 @@ img {
     font-size: 36px;
     position: relative;
     top: 22px;
-    right: 13px;
+    right: 15px;
     width: 130%;
+    transform: rotate(-4deg);
 }
 
 #month1 {
@@ -172,24 +181,26 @@ img {
 }
 
 #card {
-    height: 130px;
-    width: 160px;
+    height: 140px;
+    width: 180px;
     border-radius: 24px;
-    background-color: #7CC6AB;
+    background: linear-gradient(to top, #7CC6AB, #7cc6ab00);
     overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 3px 7px -1px rgba(0, 0, 0, 0.52);
 }
 
 #card-img {
     width: 250px;
     height: 250px;
     position: relative;
-    right: 49px;
-    bottom: 80px;
+    right: 40px;
+    bottom: 60px;
 }
 
 #card-text {
     position: relative;
-    bottom: 180px;
+    bottom: 170px;
     background-color: #7CC6AB;
     transform: rotate(-5deg);
     text-align: center;
@@ -199,7 +210,6 @@ img {
     box-shadow: -3px -13px 18px -9px rgba(0, 0, 0, 0.53);
     width: 165px;
     padding-bottom: 35px;
-    right: 15px;
 }
 
 p {

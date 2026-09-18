@@ -59,7 +59,11 @@ function openModal(item) { //* The function that opens the modal
     //* Setting all elements in the model to the current ice cream
     document.getElementById('modal-title').textContent = item.flavor;
     document.getElementById('modal-img').src = "assets/img/" + item.img;
-    document.getElementById('modal-allergens').textContent = item.allergens.join(', ');
+    if (item.allergens.length == 0) {
+        document.getElementById('modal-allergens').textContent = "-";
+    } else {
+        document.getElementById('modal-allergens').textContent = item.allergens.join(', ');
+    }
     document.getElementById('modal-traces').textContent = item.traces;
 
     //* Removing the hidden class will show the modal
