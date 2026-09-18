@@ -17,7 +17,7 @@ fetch('icecreams.json') // * We fetch the data from the JSON file
         iceCreams = data; // * We store the data in the iceCreams variable.
         console.log(iceCreams); // Just for debugging
         showDayFlavor();
-        //createCards(iceCreams); // * We call the function that will create our cards and passing the data to it
+        createCards(iceCreams); // * We call the function that will create our cards and passing the data to it
     })
     .catch(error => console.error('JSON Error: ', error)) // If there's an error, we catch it here, for debugging
 
@@ -25,30 +25,29 @@ fetch('icecreams.json') // * We fetch the data from the JSON file
 function showDayFlavor() {
     document.getElementById("dayflavor").textContent = iceCreams[0].flavor;
     document.getElementById("dayflavor-img").src = "assets/img/" + iceCreams[0].img;
-    document.getElementById("big-container").onclick = function() {
+    document.getElementById("big-container").onclick = function () {
         openModal(iceCreams[0]);
     }
 }
 
-/* ? Creating the cards
-function createCards(iceCreams){ // * The function that creats the cards themself
+// ? Creating the cards
+function createCards(iceCreams) { // * The function that creats the cards themself
 
     const container = document.getElementById('card-container'); // * We select the container by ID. ("const" is a constant value)
     container.innerHTML = ''; // * We clear the container, so it don't stack cards ontop of each other if we ever decide to refresh the data
 
-    iceCreams.forEach(item, index => { // * forEach will repeat for each entry in the JSON
-        // if (index == 0) return; // * We skip the first entry
+    iceCreams.forEach((item, index) => { // * forEach will repeat for each entry in the JSON
+        if (index == 0) return; // * We skip the first entry
         const html = `
-        <div class="icecream-card" onclick='openModal(${JSON.stringify(item)})'>
-            <img src="${item.img}" alt="${item.flavor} Ice Cream">
-            <p>${item.flavor}</p>
+        <div id="card" onclick='openModal(${JSON.stringify(item).replace(/'/g, "&#39;")})'>
+            <img id="card-img" src="assets/img/${item.img}" alt="${item.flavor} Ice Cream">
+            <div id="card-text"><p>${item.flavor}</p></div>
         </div>
         `; // * We store each ice cream1s data in the onclick event as "item"
         container.innerHTML += html; // * We add the new card to the container
     })
 
 }
-*/
 
 
 
